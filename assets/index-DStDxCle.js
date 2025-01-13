@@ -100,6 +100,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
   background-size: cover;
   position: relative;
   padding: 0 10px;
+  box-sizing: border-box;
 `,bv=je.div`
   height: 100%;
   width: 35%;
@@ -224,10 +225,6 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
   background: transparent;
   box-sizing: border-box;
   padding: 0 10px;
-
-  @media screen and (max-width: 1024px) {
-    padding: 0 20px;
-  }
 `,E0=je.div`
   display: flex;
   max-width: 100%;
