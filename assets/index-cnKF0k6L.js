@@ -116,7 +116,6 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
     width: 60%;
     margin: 0 auto;
     padding: 0;
-    padding-top: 40px;
   }
 
   @media screen and (max-width: 640px) {
