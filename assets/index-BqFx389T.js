@@ -180,7 +180,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
 `,u0=Ie.div`
     font-weight: 700;
     color: #4B4F58;
-`,s0=r=>b.jsxs(i0,{children:[b.jsx(l0,{children:b.jsx("img",{src:"BikeStore/assets/"+r.item.photo,alt:"item photo"})}),b.jsx(o0,{children:r.item.category}),b.jsx(a0,{children:r.item.name}),b.jsxs(u0,{children:["$",r.item.price]})]}),c0=Ie.div`
+`,s0=r=>b.jsxs(i0,{children:[b.jsx(l0,{children:b.jsx("img",{src:"/assets/"+r.item.photo,alt:"item photo"})}),b.jsx(o0,{children:r.item.category}),b.jsx(a0,{children:r.item.name}),b.jsxs(u0,{children:["$",r.item.price]})]}),c0=Ie.div`
   padding: 80px 0;
 `,f0=Ie.h2`
   font-family: "Racing Sans One", serif;
