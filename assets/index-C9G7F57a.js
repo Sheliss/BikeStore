@@ -224,7 +224,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
   z-index: 9999;
   background: transparent;
   box-sizing: border-box;
-  padding: 0 10px;
+  padding: 0 20px;
 `,E0=je.div`
   display: flex;
   max-width: 100%;
