@@ -130,6 +130,10 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
   font-size: 5.3rem;
   line-height: 1.4em;
   font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
 `,e0=Ie.div`
   display: flex;
   flex-direction: column;
