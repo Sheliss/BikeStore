@@ -116,6 +116,8 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
     width: 60%;
     margin: 0 auto;
     padding: 0;
+    text-align: center;
+    align-items: center;
   }
 
   @media screen and (max-width: 640px) {
@@ -144,6 +146,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
 
   @media screen and (max-width: 768px) {
     margin-bottom: 10px;
+    align-items: center;
   }
 `,ts=Ie.div`
   display: flex;
@@ -237,6 +240,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
   }
   @media screen and (max-width: 768px) {
     flex-grow: 1;
+    width: 45px;
   }
 `,k0=Ie.div`
   font-weight: 500;
@@ -275,7 +279,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
     flex-direction: column;
   }
 `,R0=Ie(v0)`
-  font-size: 40px;
+  font-size: 30px;
   cursor: pointer;
   display: none;
   padding-right: 20px;
