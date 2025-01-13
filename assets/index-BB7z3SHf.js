@@ -94,7 +94,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
       rgba(47, 193, 255, 0.7) 50%,
       rgba(47, 193, 255, 0.7) 100%
     ),
-    url("/BikeStore/src/assets/bike-hero.jpg");
+    url("/BikeStore/assets/bike-hero.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -180,7 +180,7 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
 `,u0=Ie.div`
     font-weight: 700;
     color: #4B4F58;
-`,s0=r=>b.jsxs(i0,{children:[b.jsx(l0,{children:b.jsx("img",{src:"BikeStore/src/assets/"+r.item.photo,alt:"item photo"})}),b.jsx(o0,{children:r.item.category}),b.jsx(a0,{children:r.item.name}),b.jsxs(u0,{children:["$",r.item.price]})]}),c0=Ie.div`
+`,s0=r=>b.jsxs(i0,{children:[b.jsx(l0,{children:b.jsx("img",{src:"BikeStore/assets/"+r.item.photo,alt:"item photo"})}),b.jsx(o0,{children:r.item.category}),b.jsx(a0,{children:r.item.name}),b.jsxs(u0,{children:["$",r.item.price]})]}),c0=Ie.div`
   padding: 80px 0;
 `,f0=Ie.h2`
   font-family: "Racing Sans One", serif;
@@ -289,4 +289,4 @@ Please change the parent <Route path="${M}"> to <Route path="${M==="/"?"*":`${M}
   align-items: center;
 `,L0=Ie(g0)`
   padding-left: 10px;
-`,N0=()=>{const[r,l]=D.useState(0),[o,s]=D.useState("none");return b.jsx(S0,{children:b.jsxs(js,{children:[b.jsxs(x0,{children:[b.jsx(E0,{children:b.jsx("img",{src:"/BikeStore/src/assets/bike-icon.png",alt:"bike icon"})}),b.jsxs(k0,{children:[b.jsx(mn,{to:"/",children:"Home"}),b.jsx(mn,{to:"/",children:"Bicycles"}),b.jsx(mn,{to:"/",children:"Accessories"}),b.jsx(mn,{to:"/",children:"About us"}),b.jsx(mn,{to:"/",children:"Contact"})]}),b.jsx(R0,{onClick:()=>s("flex")}),b.jsxs(_0,{children:["$",r,b.jsx(L0,{})]})]}),b.jsxs(C0,{display:o,children:[b.jsx(mn,{to:"/",children:"Home"}),b.jsx(mn,{to:"/",children:"Bicycles"}),b.jsx(mn,{to:"/",children:"Accessories"}),b.jsx(mn,{to:"/",children:"About us"}),b.jsx(mn,{to:"/",children:"Contact"}),b.jsx(P0,{onClick:()=>s("flex")})]})]})})},T0=()=>b.jsxs(b.Fragment,{children:[b.jsx(N0,{}),b.jsx(tg,{})]}),D0=_g(rg(b.jsx(b.Fragment,{children:b.jsx(os,{path:"/BikeStore",element:b.jsx(T0,{}),children:b.jsx(os,{index:!0,element:b.jsx(y0,{})})})})));function z0(){return b.jsxs(b.Fragment,{children:[b.jsx(Hv,{}),b.jsx(Ug,{router:D0})]})}jm.createRoot(document.getElementById("root")).render(b.jsx(D.StrictMode,{children:b.jsx(z0,{})}));
+`,N0=()=>{const[r,l]=D.useState(0),[o,s]=D.useState("none");return b.jsx(S0,{children:b.jsxs(js,{children:[b.jsxs(x0,{children:[b.jsx(E0,{children:b.jsx("img",{src:"/BikeStore/assets/bike-icon.png",alt:"bike icon"})}),b.jsxs(k0,{children:[b.jsx(mn,{to:"/",children:"Home"}),b.jsx(mn,{to:"/",children:"Bicycles"}),b.jsx(mn,{to:"/",children:"Accessories"}),b.jsx(mn,{to:"/",children:"About us"}),b.jsx(mn,{to:"/",children:"Contact"})]}),b.jsx(R0,{onClick:()=>s("flex")}),b.jsxs(_0,{children:["$",r,b.jsx(L0,{})]})]}),b.jsxs(C0,{display:o,children:[b.jsx(mn,{to:"/",children:"Home"}),b.jsx(mn,{to:"/",children:"Bicycles"}),b.jsx(mn,{to:"/",children:"Accessories"}),b.jsx(mn,{to:"/",children:"About us"}),b.jsx(mn,{to:"/",children:"Contact"}),b.jsx(P0,{onClick:()=>s("flex")})]})]})})},T0=()=>b.jsxs(b.Fragment,{children:[b.jsx(N0,{}),b.jsx(tg,{})]}),D0=_g(rg(b.jsx(b.Fragment,{children:b.jsx(os,{path:"/BikeStore",element:b.jsx(T0,{}),children:b.jsx(os,{index:!0,element:b.jsx(y0,{})})})})));function z0(){return b.jsxs(b.Fragment,{children:[b.jsx(Hv,{}),b.jsx(Ug,{router:D0})]})}jm.createRoot(document.getElementById("root")).render(b.jsx(D.StrictMode,{children:b.jsx(z0,{})}));
